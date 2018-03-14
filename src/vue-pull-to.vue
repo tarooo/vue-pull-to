@@ -10,7 +10,7 @@
         <p class="default-text">{{ topText }}</p>
       </slot>
     </div>
-    <div class="scroll-container">
+    <div id="pull-scroll_box" class="scroll-container">
       <slot></slot>
     </div>
     <div v-if="bottomLoadMethod"
